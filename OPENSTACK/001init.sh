@@ -13,3 +13,11 @@ then
 else
   mkdir -p $file
 fi
+
+file="../input"
+if [ -e $file ]
+then
+  echo "$file exists"
+else
+  mkdir -p $file
+fi
